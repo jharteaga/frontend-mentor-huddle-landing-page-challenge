@@ -63,6 +63,7 @@ body {
     font-weight: 400;
     font-size: 0.95rem;
     line-height: 25px;
+    margin: 0;
 }
 
 .register-container {
@@ -74,7 +75,7 @@ body {
     padding: 10px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
     cursor: pointer;
-    margin-top: 20px;
+    margin-top: 1.5rem;
 }
 
 .register-container:hover {
@@ -95,7 +96,7 @@ body {
 }
 
 .icon {
-    font-size: 32px;
+    font-size: 28px;
     margin: 0 7px;
 }
 
@@ -103,6 +104,8 @@ body {
     margin-top: 30px;
     color: white;
     text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
 }
 
 .attribution a {
