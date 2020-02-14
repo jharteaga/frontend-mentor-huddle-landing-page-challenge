@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+:root {
+    --violet: hsl(257, 40%, 49%);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--violet);
+    background-image: url('images/bg-mobile.svg');
+    background-repeat: no-repeat;
+}
+
+.header-container {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.logo {
+    max-width: 135px;
+}
+
+.body-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 45px;
+}
+
+.mockup-container {
+    align-self: center;
+}
+
+.mockup-img {
+    width: 300px;
+    height: 225px;
+}
+
+.information-container {
+    margin: 45px 35px;
+}
+
+.information-container h1 {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 35px;
+}
+
+.information-container p {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    font-size: 0.95rem;
+    line-height: 25px;
+}
+
+.register-container {
+    background-color: white;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+    margin: 15px 45px;
+}
+
+.register-container a {
+    text-decoration: none;
+    color: #7665AB;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+.footer-container {
+    color: white;
+    text-align: center;
+}
+
+.icon {
+    font-size: 25px;
+    margin: 0 5px;
+}
+
+.attribution {
+    margin-top: 30px;
+    color: white;
+    text-align: center;
+}
+
+.attribution a {
+    color: rgb(172, 192, 201);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
